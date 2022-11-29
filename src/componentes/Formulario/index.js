@@ -18,10 +18,13 @@ const Formulario = (props) => {
       cargo,
       imagem,
       time
-    });
+    })
 
-   
-  };
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
+  }
 
   return (
     <section className="formulario">
