@@ -12,6 +12,7 @@ const Formulario = (props) => {
   const [time, setTime] = useState("");
 
   const aoSalvar = (event) => {
+    console.log("aoSalvar")
     event.preventDefault();
     props.aoColaboradorCadastrado({
       nome,
